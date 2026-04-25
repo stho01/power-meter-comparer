@@ -7,6 +7,36 @@ It extracts `timestamp` + `power` from each file's `record` messages and plots b
 - x-axis: elapsed time (minutes)
 - y-axis: power (watts)
 
+## Install Standalone App (No Python Needed)
+
+Download the latest release assets from GitHub Releases.
+
+### Windows
+
+1. Download `pmcompare-<version>-windows.exe`.
+2. Place it in any folder (for example `Downloads` or `Desktop`).
+3. Double-click the `.exe` to launch the UI.
+
+If Windows SmartScreen warns about an unknown publisher, click `More info` then `Run anyway`.
+
+### Linux
+
+1. Download `pmcompare-<version>-linux`.
+2. Move it to a folder you keep apps in (for example `~/bin/pmcompare`).
+3. Make it executable:
+
+```bash
+chmod +x pmcompare-<version>-linux
+```
+
+4. Run it:
+
+```bash
+./pmcompare-<version>-linux
+```
+
+Optional: rename it to `pmcompare` and place it in a directory on your `PATH` for easier launching.
+
 ## Setup
 
 ```bash
